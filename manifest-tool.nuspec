@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>manifest-tool</id>
+    <version>0.7.0</version>
+    <title>manifest-tool</title>
+    <authors>Phil Estes</authors>
+    <owners>Stefan Scherer</owners>
+    <summary>Define and inspect multi-arch Docker images.</summary>
+    <description>manifest-tool is a command line utility that implements a portion of the client side of the Docker registry v2.2 API for interacting with manifest objects in a registry conforming to that specification.
+
+This tool was mainly created for the purpose of viewing, creating, and pushing the new manifests list object type in the Docker registry. </description>
+    <projectUrl>https://github.com/estesp/manifest-tool</projectUrl>
+    <docsUrl>https://github.com/estesp/manifest-tool/blob/master/README.md#sample-usage</docsUrl>
+    <bugTrackerUrl>https://github.com/estesp/manifest-tool/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/StefanScherer/choco-manifest-tool</packageSourceUrl>
+    <tags>Docker manifest-tool</tags>
+    <licenseUrl>https://github.com/estesp/manifest-tool/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <iconUrl>https://www.docker.com/sites/default/files/docker_captian_image_0.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
