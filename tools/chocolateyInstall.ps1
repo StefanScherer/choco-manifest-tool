@@ -1,7 +1,7 @@
 $packageName = 'manifest-tool'
-$url = 'https://github.com/estesp/manifest-tool/releases/download/v0.8.0/manifest-tool-windows-amd64.exe'
+$url = 'https://github.com/estesp/manifest-tool/releases/download/v0.9.0/manifest-tool-windows-amd64.exe'
 $url64 = $url
-$checksum = 'd220568a8b5de402f26dab5d0e0e86b5f6594650fd38a6056c3012dbccb032f5'
+$checksum = 'c34688e5b074eaa36a885a19f96e8d4f2a4e29fd4ed8ccac5d2fc3049ba61ae6'
 $checksum64 = $checksum
 $checksumType = 'sha256'
 $checksumType64 = $checksumType
