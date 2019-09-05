@@ -22,5 +22,5 @@ sed -i.bak "s/<version>.*<\/version>/<version>${version}<\/version>/" manifest-t
 
 sed -i.bak "s/version: .*{build}/version: ${version}.{build}/" appveyor.yml
 
-sed -i.bak "s!^\$url = '.*'!\$url = '${url}'!" tools/chocolateyInstall.ps1
-sed -i.bak "s/^\$checksum = '.*'/\$checksum = '${checksum}'/" tools/chocolateyInstall.ps1
+sed -i.bak "s!^\$url64 = '.*'!\$url64 = '${url}'!" tools/chocolateyInstall.ps1
+sed -i.bak "s/^\$checksum64 = '.*'/\$checksum64 = '${checksum}'/" tools/chocolateyInstall.ps1
