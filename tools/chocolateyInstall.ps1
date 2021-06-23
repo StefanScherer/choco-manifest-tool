@@ -1,6 +1,6 @@
 $packageName = 'manifest-tool'
-$url64 = 'https://github.com/estesp/manifest-tool/releases/download/v1.0.2/manifest-tool-windows-amd64.exe'
-$checksum64 = 'bb457dd18186c1f93a24612cae6a32bd7439ddab7ef13d8c9c1c2c4022f53317'
+$url64 = 'https://github.com/estesp/manifest-tool/releases/download/v1.0.3/manifest-tool-windows-amd64.exe'
+$checksum64 = 'e0b9782a32cd7fc4f0b78699b6db6bb24904063dd3d4f74c0fb9c77ee29ac2f8'
 $checksumType64 = 'sha256'
 
 $destination = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
